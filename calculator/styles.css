@@ -1,0 +1,23 @@
+.display {
+  background-color: #222222;
+  color: #FFF;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  text-align: right;
+}
+
+.keys {
+  display: grid;
+  background-color: #999;
+  gap: 3px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.operator {
+  background-color: #eee;
+}
+
+.equal {
+  grid-column: 4;
+  grid-row: 2 / span 4;
+}
